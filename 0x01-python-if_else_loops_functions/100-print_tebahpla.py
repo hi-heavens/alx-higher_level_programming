@@ -5,9 +5,8 @@ conv = ord(letter)
 
 for alp in range(122, 96, -1) :
     if alp % 2 == 1:
-        char = alp - 32
+        print("{:c}".format(alp - 32), end="")
     else:
-        char = alp
-    print("{:c}".format(char), end="")
+        print("{:c}".format(alp), end="")
         
     conv -= 1
