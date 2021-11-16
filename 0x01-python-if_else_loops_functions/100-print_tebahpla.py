@@ -3,11 +3,11 @@ letter = 'z'
 
 conv = ord(letter)
 
-while conv > 96:
-    if(conv % 2 == 1):
-        char = conv - 32
+for alp in range(122, 96, -1) :
+    if alp % 2 == 1:
+        char = alp - 32
     else:
-        char = conv
+        char = alp
     print("{:c}".format(char), end="")
         
     conv -= 1
