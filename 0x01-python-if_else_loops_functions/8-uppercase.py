@@ -8,5 +8,5 @@ def uppercase(str):
             char = chr(conv - 32)
         else:
             char = str[length]
-        print(char, end="")
+        print("{:c}".format(char), end="")
     print()
