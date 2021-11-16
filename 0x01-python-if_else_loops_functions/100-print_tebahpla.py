@@ -9,4 +9,5 @@ while conv > 96:
     else:
         char = conv
     print("{:c}".format(char), end="")
-        conv -= 1
+        
+    conv -= 1
