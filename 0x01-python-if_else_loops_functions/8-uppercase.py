@@ -5,8 +5,8 @@ def uppercase(str):
         letter = str[length]
         conv = ord(letter)
         if conv >= 97 and conv <= 122:
-            char = chr(conv - 32)
+            char = conv - 32
         else:
-            char = str[length]
+            char = conv
         print("{:c}".format(char), end="")
     print()
