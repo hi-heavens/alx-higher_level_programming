@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-letter = ord('a')
 
-for alpha in range(letter, 123):
-    print(chr(alpha), end="")
+for alpha in range(ord('a'), 123):
+    print("{:c}".format(alpha), end="")
