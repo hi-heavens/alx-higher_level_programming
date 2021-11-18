@@ -2,4 +2,4 @@
 def remove_char_at(str, n):
     if n < 0:
         return (str)
-    print(str[:n] +  str[n+1:])
+    print("{}{}".format(str[:n], str[n+1:]))
