@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def only_diff_elements(set_1, set_2):
-    a =  []
+    a = []
     for num in set_1:
         a.append(num)
 
