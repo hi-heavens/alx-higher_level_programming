@@ -2,7 +2,7 @@
 def best_score(a_dictionary):
     name = ""
     score = 0
-    if not isinstance(a_dictionary, dict):
+    if not a_dictionary:
         return None
     else:
         for key in a_dictionary:
