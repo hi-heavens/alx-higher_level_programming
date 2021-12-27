@@ -2,9 +2,6 @@
 """We are going to define the class here"""
 
 
-from typing import Type
-
-
 class Square:
     """A class Square that defines a square"""
 
