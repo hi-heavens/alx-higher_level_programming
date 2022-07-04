@@ -2,8 +2,9 @@
 
 | Task no | Description                                                     | File name   |
 | ------- | --------------------------------------------------------------- | ----------- |
-| 0       | An empty class Square that defines a square                     | 0-lookup.py |
-| 1       | A class Square that defines a square by: (based on 0-square.py) | 1-my_list.py |
+| 0       | A function that returns the list of available
+attributes and methods of an object                     | 0-lookup.py |
+| 1       | A class MyList that inherits from list and print sorted | 1-my_list.py |
 |||tests/1-my_list.txt|
 | 2       | A class Square that defines a square by: (based on 1-square.py) | 2-is_same_class.py |
 | 3       | A class Square that defines a square by: (based on 2-square.py) | 3-is_kind_of_class.py |
