@@ -1,17 +1,14 @@
-# 0x06. Python - Classes and Objects
+# Project List
 
-| Task no | Description                                                     | File name   |
-| ------- | --------------------------------------------------------------- | ----------- |
-| 0       | An empty class Square that defines a square                     | 0-square.py |
-| 1       | A class Square that defines a square by: (based on 0-square.py) | 1-square.py |
-| 2       | A class Square that defines a square by: (based on 1-square.py) | 2-square.py |
-| 3       | A class Square that defines a square by: (based on 2-square.py) | 3-square.py |
-| 4       | A class Square that defines a square by: (based on 3-square.py) | 4-square.py |
-| 5       | A class Square that defines a square by: (based on 4-square.py) | 5-square.py |
-| 6       | A class Square that defines a square by: (based on 5-square.py) | 6-square.py |
-
----
-
-> Where? In what form, shall we meet again?
-
----
+| Project no | Description    |
+| ---------- | -------------- |
+| 0          | 0-rectangle.py |
+| 1          | 1-rectangle.py |
+| 2          | 2-rectangle.py |
+| 3          | 3-rectangle.py |
+| 4          | 4-rectangle.py |
+| 5          | 5-rectangle.py |
+| 6          | 6-rectangle.py |
+| 7          | 7-rectangle.py |
+| 8          | 8-rectangle.py |
+| 9          | 9-rectangle.py |
