@@ -3,8 +3,9 @@
 
 
 def append_write(filename="", text=""):
-    """ 
-        A function that appends a string at the end of a text file (UTF8) and returns the number of characters added 
+    """
+        A function that appends a string at the end of a text file (UTF8)
+        and returns the number of characters added
         Args:
             filename: name of the file
             text: text to append in the file
