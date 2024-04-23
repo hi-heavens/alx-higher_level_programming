@@ -78,4 +78,6 @@ class Rectangle(Base):
 
     def __str__(self):
         """ Update the class Rectangle by overriding the __str__ method """
-        return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
+        return "[Rectangle] (" + str(self.id) + ") " + str(self.__x)\
+            + "/" + str(self.__y) + " - " + str(self.__width) + "/"\
+            + str(self.__height)
