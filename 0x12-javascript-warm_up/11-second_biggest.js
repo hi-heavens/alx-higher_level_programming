@@ -16,8 +16,8 @@ else {
   for (let i = 0; i < arr.length; i++) {
     let temp;
     for (let j = 0; j < arr.length; j++) {
-      iValue = parseInt(arr[i]);
-      jValue = parseInt(arr[j]);
+      const iValue = parseInt(arr[i]);
+      const jValue = parseInt(arr[j]);
       if (iValue < jValue) {
         [temp, arr[i]] = [iValue, jValue];
         arr[j] = temp;
