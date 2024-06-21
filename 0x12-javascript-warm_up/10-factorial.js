@@ -10,7 +10,7 @@ Write a script that computes and prints a factorial
 */
 const value = parseInt(process.argv[2]);
 
-function factorial(num) {
+function factorial (num) {
   if (isNaN(num) || num === 1) return 1;
   else return num * factorial(num - 1);
 }
