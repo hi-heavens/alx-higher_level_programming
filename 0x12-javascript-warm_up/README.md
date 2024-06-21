@@ -17,3 +17,4 @@
 | 12         | 12-object.js               |
 | 13         | 13-add.js                  |
 | 14         | 100-let_me_const.js        |
+| 15         | 101-call_me_moby.js        |
