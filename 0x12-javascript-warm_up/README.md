@@ -10,5 +10,5 @@
 | 5          | 5-rectangle.py             |
 | 6          | 6-multi_languages_loop.js  |
 | 7          | 7-rectangle.py             |
-| 8          | 8-rectangle.py             |
+| 8          | 8-square.js                |
 | 9          | 9-rectangle.py             |
