@@ -7,10 +7,12 @@ Write a function that executes x times a function.
 - Prototype: function (x, theFunction)
 - You are not allowed to use var
 */
-module.exports.callMeMoby = function (x, theFunction) {
+callMeMoby = function (x, theFunction) {
   let i = 0;
-  while (i < 3) {
+  while (i < x) {
     theFunction();
     i++;
   }
 };
+
+module.exports = { callMeMoby };
