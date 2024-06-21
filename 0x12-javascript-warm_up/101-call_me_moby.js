@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+'use strict';
 /**
 Write a function that executes x times a function.
 
@@ -7,7 +7,7 @@ Write a function that executes x times a function.
 - Prototype: function (x, theFunction)
 - You are not allowed to use var
 */
-callMeMoby = function (x, theFunction) {
+const callMeMoby = function (x, theFunction) {
   let i = 0;
   while (i < x) {
     theFunction();
