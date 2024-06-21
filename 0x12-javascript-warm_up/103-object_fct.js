@@ -6,7 +6,7 @@ Update this script by adding a new function incr that increments the integer val
 */
 const myObject = {
   type: 'object',
-  value: 12,
+  value: 12
 };
 console.log(myObject);
 /*
