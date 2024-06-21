@@ -8,7 +8,7 @@
 | 3          | 3-rectangle.py             |
 | 4          | 4-rectangle.py             |
 | 5          | 5-rectangle.py             |
-| 6          | 6-rectangle.py             |
+| 6          | 6-multi_languages_loop.js  |
 | 7          | 7-rectangle.py             |
 | 8          | 8-rectangle.py             |
 | 9          | 9-rectangle.py             |
