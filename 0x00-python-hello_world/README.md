@@ -5,7 +5,7 @@
 | 0       | A Shell script that runs a Python script                                              | 0-run                     |
 | 1       | A Shell script that runs Python code                                                  | 1-run_inline              |
 | 2       | A Python script that prints exactly a sentence followed by a new line                 | 2-print.py                |
-| 3       | A Print integer                                                                       | 3-print_number.py         |
+| 3       | Print the integer stored in the variable number                                       | 3-print_number.py         |
 | 4       | A Print float                                                                         | 4-print_float.py          |
 | 5       | A Print string                                                                        | 5-print_string.py         |
 | 6       | Play with strings                                                                     | 6-concat.py               |
