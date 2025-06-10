@@ -9,7 +9,7 @@ class Square:
         """
         self.size = size
         self.position = position
-   
+
     @property
     def size(self):
         """This is to retrieve the value of the size variable"""
@@ -17,13 +17,13 @@ class Square:
 
     @size.setter
     def size(self, size):
-        if type(size) != int:
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
-    
+
     @property
     def position(self):
         """This is to retrieve the value of the position variable"""
@@ -31,11 +31,11 @@ class Square:
 
     @position.setter
     def position(self, position):
-        if len(position) != 2 or type(position) != tuple:
+        if len(position) != 2 or not isinstance(position, tuple):
             raise TypeError("position must be a tuple of 2 positive integer")
-        if type(position[0]) != int or position[0] < 0:
+        if not isinstance(position[0], int) or position[0] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
-        if type(position[1]) != int or position[1] < 0:
+        if not isinstance(position[1], int) != int or position[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = position
 
